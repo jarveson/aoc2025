@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "jaxaoc2025",
+  "version-semver": "0.1.0",
+  "builtin-baseline": "be563dfee81e88f9f6cf68839dff5b671b5cfb37",
+  "dependencies": [
+    "fmt",
+    "spdlog",
+    "gtest",
+    "geos"
+  ],
+  "overrides": [
+    { "name": "fmt", "version": "12.1.0" },
+    { "name": "spdlog", "version": "1.16.0" },
+    { "name": "gtest", "version": "1.17.0", "port-version": 2 },
+    { "name": "geos", "version": "3.14.1" }
+  ]
+}

@@ -1,0 +1,24 @@
+# Build
+build/
+dist/
+install/
+out/
+
+/src/input*.txt
+
+# CMake
+CMakeFiles
+CMakeCache.txt
+
+# IDE: VS
+.vs
+# IDE: VS Code
+**/.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# vcpkg
+vcpkg_installed/
+# Helps VS intellisense, avoiding vcpkg buildtrees
+deps/vcpkg/
