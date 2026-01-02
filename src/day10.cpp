@@ -151,8 +151,8 @@ void day10proc() {
 	//SPDLOG_ERROR("{}", d9.getp2());
 }
 
-int main() {
+/*int main() {
 	day10test();
 	day10proc();
 	return 0;
-}
+}*/
